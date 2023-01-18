@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className='flex items-center'>
             <AiOutlineMail className='text-white' size={30}/>
-            <p className='text-[1rem] ml-1 text-white'>mrparsahsams@gmail.com</p>
+            <p className='text-[1rem] ml-1 text-white'>mrparsashams@gmail.com</p>
         </div>
         <div className='flex items-center'>
             <BsTelegram className='text-white' size={30}/>
