@@ -1,0 +1,122 @@
+.Div{
+    width: 0.4rem;
+    height: 10rem;
+    background-color: #7D09E3;
+    border-radius: 10px;
+    position: absolute;
+    top: 43%;
+    right: 1rem;
+}
+
+.Div-2{
+    width: 0.4rem;
+    height: 10rem;
+    background-color: #7D09E3;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    right: 1rem;
+}
+.Div-3{
+    width: 0.4rem;
+    height: 12rem;
+    background-color: #7D09E3;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    right: 1rem;
+}
+.Div-4{
+    width: 0.4rem;
+    height: 12rem;
+    background-color: #7D09E3;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    right: 1rem;
+}
+.Div-5{
+    width: 0.4rem;
+    height: 12rem;
+    background-color: #7D09E3;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    right: 1rem;
+}
+
+.text-container{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -1.1rem;
+    top: 35%;
+}
+
+.text-container-2{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -1.5rem;
+    top: 35%;
+}
+.text-container-3{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -3.5rem;
+    top: 40%;
+}
+.text-container-4{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -2.4rem;
+    top: 40%;
+}
+.text-container-5{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -2.8rem;
+    top: 40%;
+}
+
+.text{
+    color: aliceblue;
+    letter-spacing: 0.5rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+
+    .Div{
+        width: 0.4rem;
+        height: 12rem;
+        background-color: #7D09E3;
+        border-radius: 10px;
+        position: absolute;
+        top: 45%;
+        right: 1rem;
+    }
+
+    .Div-2{
+        width: 0.4rem;
+        height: 12rem;
+        background-color: #7D09E3;
+        border-radius: 10px;
+        position: absolute;
+        top: 20%;
+        right: 1rem;
+    }
+
+    .text-container{
+        transform: rotate(-90deg);
+        position: absolute;
+        right: -1.1rem;
+        top: 40%;
+    }
+    
+    .text-container-2{
+        transform: rotate(-90deg);
+        position: absolute;
+        right: -1.5rem;
+        top: 40%;
+    }
+}

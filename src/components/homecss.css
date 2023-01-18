@@ -1,0 +1,19 @@
+.bghome{
+    background: conic-gradient(from 180deg at 49.87% 0%, #070707 0deg, #0C080E 26.29deg, #A10DFF 187.5deg, #13071A 332.99deg, #070707 360deg);
+}
+
+.bghome2{
+    background-color: #070707;
+}
+
+.btn-bg{
+    background: linear-gradient(45deg, #131086,  #b621f3);
+}
+
+.mypic{
+    filter: drop-shadow(0px 0px 10px #7D09E3);
+    
+
+}
+
+
