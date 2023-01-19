@@ -11,7 +11,7 @@ const Home = ()=>{
         
   <div>
     
-        <div  id='home'  className='  w-full h-full relative  top-0 mb-11 px-2 md:py-20 md:mb-2 '>
+        <div  id='home'  className='  w-full h-full relative  top-0 py-[4.5rem] mb-11 px-2 md:py-20 md:mb-2 '>
        
 
             <div   className="  flex flex-col justify-center items-center w-full h-full md:flex md:flex-row md:justify-around md:items-center md:pt-[6rem]">
