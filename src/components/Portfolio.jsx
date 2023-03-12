@@ -4,6 +4,7 @@ import midpic from '../assets/qrcode.png'
 import latspic from '../assets/techfinder.png'
 import imanipic from '../assets/visitcard.png'
 import Scroll from './Scroll'
+import Rex from '../assets/Rex-shop-2-1.mov'
 
 const Portfolio = () => {
 
