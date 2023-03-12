@@ -55,6 +55,16 @@ const Portfolio = () => {
               </div>
             )
           })}
+          
+           <div className='w-full overflow-hidden rounded-lg  gap-4 flex flex-col items-center bg-[#2d0c658f]'>
+          <video src={Rex}   autoPlay controls></video>
+          <p className='text-white'>Rex-shop</p>
+          <p className='text-white mb-1'>React & Redux & Api</p>
+            <p className='text-white'></p>
+                  <div className='lg:flex lg:gap-4 px-3'>
+                    <a target={'_blank'} rel="noreferrer" href='https://github.com/Parsa-PT/Rex-shop-react-redux' className='btn-bg w-[10rem] mb-4 text-white px-4 py-2 rounded-md flex cursor-pointer  justify-center' >GitHub </a>
+                  </div>
+          </div>
 
         
       </div>
