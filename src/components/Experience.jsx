@@ -4,6 +4,8 @@ import Csspic from '../assets/CSS3_logo.svg.png'
 import JSpic from '../assets/800px-JavaScript-logo.png'
 import Tailwindpic from '../assets/Tailwind_CSS_Logo.svg.png'
 import Reactpic from '../assets/React-icon.svg.png'
+import Botspic from '../assets/Bootstrap_logo.svg.png'
+import Nextpic from '../assets/nextjs.png'
 import Alphinepic from '../assets/alpine-js-logo-21F4169EAB-seeklogo.com.png'
 import Scroll from './Scroll'
 
@@ -43,6 +45,18 @@ const Experience = () => {
         },
         {
             id : 6,
+            src: Botspic,
+            Title : 'Bootstrap',
+            Style : 'shadow-[#9261FB]'
+        },
+        {
+            id : 7,
+            src: Nextpic,
+            Title : 'Nextjs',
+            Style : 'shadow-[#FFFF]'
+        },
+        {
+            id : 8,
             src: Alphinepic,
             Title : 'Alphine js',
             Style : 'shadow-[#FFFF]'
