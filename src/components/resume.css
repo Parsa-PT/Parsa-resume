@@ -1,0 +1,49 @@
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.main .lightBox , .darkBox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+   background: linear-gradient(45deg,#6F07FD 10%, transparent 10%,transparent 50% , #6F07FD 50% , #6F07FD 60% ,transparent 60% , transparent 100%);
+   background-size: 15px 15px;
+   box-shadow:  0 0 0 10px #000 , 0 0 0 14px #6F07FD;
+   animation: box 0.6s linear infinite ;
+}
+
+.main .lightBox::before{
+    content: '';
+    position: absolute;
+    inset: 20px;
+    background-color: #FFF;
+}
+.main .darkBox::before{
+    content: '';
+    position: absolute;
+    inset: 20px;
+    background-color: #000;
+}
+.main .lightBox::after , .darkBox::after {
+    content: '';
+    position: absolute;
+    inset: 30px;
+    border: 2px dashed #6F07FD;
+}
+
+@keyframes box{
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 15px;
+    }
+}
